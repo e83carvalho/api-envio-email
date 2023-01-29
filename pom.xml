@@ -10,7 +10,7 @@
     </parent>
     <groupId>br.com.egc</groupId>
     <artifactId>api-envio-email</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.3</version>
     <name>api-envio-email</name>
     <description>api para envio de email</description>
     <properties>

@@ -1,0 +1,33 @@
+﻿kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: configmap-api-envio-email
+  namespace: e83carvalho
+  selfLink: /api/v1/namespaces/e83carvalho/configmaps/configmap-api-envio-email
+  uid: b173a671-4115-49c6-b861-84527c945288
+  resourceVersion: '241863791'
+  creationTimestamp: '2023-01-29T15:57:54Z'
+  managedFields:
+    - manager: Mozilla
+      operation: Update
+      apiVersion: v1
+      time: '2023-01-29T15:57:54Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:data':
+          .: {}
+          'f:SPRING.MAIL.PASSWORD': {}
+          'f:SPRING.MAIL.USERNAME': {}
+          'f:SPRING.PROFILES.ACTIVE': {}
+          'f:SPRING_RABBITMQ_HOST': {}
+          'f:SPRING_RABBITMQ_PASSWORD': {}
+          'f:SPRING_RABBITMQ_USERNAME': {}
+          'f:SPRING_RABBITMQ_VIRTUAL_HOST': {}
+data:
+  SPRING.MAIL.PASSWORD: colocar o valor aqui
+  SPRING.MAIL.USERNAME: colocar o valor aqui
+  SPRING.PROFILES.ACTIVE: openshift
+  SPRING_RABBITMQ_HOST: colocar o valor aqui
+  SPRING_RABBITMQ_PASSWORD: colocar o valor aqui
+  SPRING_RABBITMQ_USERNAME: colocar o valor aqui
+  SPRING_RABBITMQ_VIRTUAL_HOST: colocar o valor aqui
